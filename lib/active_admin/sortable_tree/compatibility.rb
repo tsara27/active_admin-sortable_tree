@@ -1,3 +1,5 @@
+require 'activeadmin'
+
 module ActiveAdmin::SortableTree
   class Compatibility
     def self.normalized_resource_name(resource_name)
